@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Organizer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      button {
+        margin-top: 10px;
+      }
+      #output {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tab Organizer</h1>
+    <input id="groupName" type="text" placeholder="Group Name" />
+    <button id="saveButton">Save Tab Group</button>
+    <button id="loadButton">Load Tab Group</button>
+    <br />
+    <button id="groupTabs">Group Tabs by Domain</button>
+    <button id="listTabs">List All Tabs</button>
+    <button id="showGroupsButton">Show Saved Groups</button>
+    <div id="output"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

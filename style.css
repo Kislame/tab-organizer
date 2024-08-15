@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+button,
+select {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover,
+select:hover {
+  background-color: #45a049;
+}
+
+select {
+  padding: 5px;
+}
+
+#output {
+  margin-top: 20px;
+  text-align: left;
+}
